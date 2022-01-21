@@ -27,7 +27,7 @@ export default {
   ],
   plugins: [
     nodeResolve(),
-    commonjs(),
+    commonjs({requireReturnsDefault: true}),
     banner
   ]
 };

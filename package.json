@@ -37,7 +37,7 @@
     "prepublishOnly": "npm run gh-pages"
   },
   "dependencies": {
-    "pica": "^9.0.0"
+    "pica": "fabb/pica#esm"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
